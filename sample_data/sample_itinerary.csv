@@ -1,0 +1,42 @@
+id,destination,category,start_date,end_date,est_cost,status,notes
+1,Goa,Flight,2026-12-20,2026-12-20,9800.0,Booked,"Hyderabad to Goa, IndiGo morning flight"
+2,Goa,Stay,2026-12-20,2026-12-24,22000.0,Booked,"Beachside resort, 4 nights"
+3,Goa,Activity,2026-12-21,2026-12-21,3500.0,Planned,Scuba at Grande Island
+4,Goa,Food,2026-12-22,2026-12-22,2400.0,Planned,Seafood dinner on the beach
+5,Goa,Transport,2026-12-20,2026-12-24,6000.0,Planned,"Scooter rental, 4 days"
+6,Goa,Flight,2026-12-24,2026-12-24,8700.0,Booked,Return leg
+7,Hampi,Stay,2026-12-24,2026-12-26,5600.0,Planned,Heritage homestay (same-day checkout/check-in with Goa is fine)
+8,Hampi,Activity,2026-12-25,2026-12-25,1200.0,Planned,Virupaksha temple and coracle ride
+9,Hampi,Transport,2026-12-24,2026-12-24,3200.0,Planned,Cab from Goa
+10,Singapore,Flight,2027-02-10,2027-02-10,24000.0,Planned,Outbound
+11,Singapore,Stay,2027-02-10,2027-02-15,30000.0,Planned,Hotel near Orchard Road
+12,Singapore,Activity,2027-02-12,2027-02-12,6500.0,Planned,Universal Studios
+13,Singapore,Food,2027-02-13,2027-02-13,4500.0,Planned,Hawker centre crawl
+14,Singapore,Transport,2027-02-10,2027-02-15,2000.0,Planned,Transit card top-up
+15,Singapore,Shopping,2027-02-14,2027-02-14,5000.0,Planned,Gifts
+16,Singapore,Flight,2027-02-15,2027-02-15,22000.0,Planned,Return
+17,Manali,Flight,2027-01-08,2027-01-08,7200.0,Planned,Delhi to Bhuntar
+18,Manali,Stay,2027-01-08,2027-01-12,14000.0,Planned,Cottage with heater
+19,Manali,Activity,2027-01-10,2027-01-10,2800.0,Planned,Skiing at Solang Valley
+20,Manali,Transport,2027-01-08,2027-01-08,1800.0,Booked,Taxi from airport
+21,Manali,Food,2027-01-09,2027-01-09,1600.0,Planned,Local Himachali thali
+22,Jaipur,Stay,2026-10-18,2026-10-20,9000.0,Done,Haveli stay
+23,Jaipur,Activity,2026-10-19,2026-10-19,1500.0,Planned,Amber Fort (never marked done)
+24,Jaipur,Food,2026-10-19,2026-10-19,1800.0,Done,Rajasthani dinner
+25,Jaipur,Transport,2026-10-18,2026-10-20,4200.0,Booked,Driver for 3 days (never marked done)
+26,Kochi,Flight,2027-03-05,2027-03-05,6400.0,Planned,Arrival
+27,Munnar,Stay,2027-03-06,2027-03-08,11000.0,Planned,Tea estate bungalow
+28,Alleppey,Stay,2027-03-08,2027-03-10,16000.0,Planned,Houseboat
+29,Alleppey,Activity,2027-03-09,2027-03-09,3000.0,Planned,Backwater canoe tour
+30,Kochi,Food,2027-03-10,2027-03-10,1200.0,Planned,Farewell dinner
+31,Delhi,Stay,2027-01-10,2027-01-11,4500.0,Planned,"Overlaps the Manali stay, should raise a critical alert"
+32,Mumbai,Food,2026-11-26,2026-11-26,0.0,Planned,Free tasting event (zero-cost boundary)
+33,Pune,Activity,2026-11-28,2026-11-28,800.0,Planned,Starts within a week and still not booked
+34,Hyderabad,Other,2026-11-25,2026-11-25,500.0,Planned,Single-day entry (start equals end)
+35,Ooty,Stay,2027-04-01,2027-04-05,9500.0,Cancelled,Cancelled because of the rain forecast
+36,Ooty,Transport,2027-04-01,2027-04-01,2500.0,Cancelled,Cancelled together with the stay
+37,Lisbon,Food,2027-05-02,2027-05-02,24000.0,Planned,Tasting menu (cost anomaly vs other food entries)
+38,Chennai,Other,2027-06-01,2027-06-01,0.01,Planned,Smallest non-zero cost boundary
+39,Leh,Stay,2027-06-10,2027-09-10,3000.0,Planned,"Very long span, check the dates"
+40,Udaipur,Activity,2027-02-20,2027-02-20,2200.0,Planned,"Boat ride on Lake Pichola, ""sunset slot"", incl. tax, café stop"
+41,Goa,Activity,2026-12-21,2026-12-21,3500.0,Planned,Scuba at Grande Island (accidental duplicate)

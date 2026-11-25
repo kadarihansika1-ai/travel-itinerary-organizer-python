@@ -1,0 +1,13 @@
+destination,category,start_date,end_date,est_cost,status,notes
+Varanasi,Stay,2027-03-15,2027-03-17,7500,Planned,Valid row
+Agra,Activity,15/03/2027,15/03/2027,"1,250.50",Booked,Valid: DD/MM/YYYY date and comma in cost
+,Stay,2027-03-15,2027-03-17,7500,Planned,Blank destination
+Shimla,Stay,31/02/2027,02/03/2027,5000,Planned,Impossible date (31 Feb)
+Rishikesh,Activity,2027-04-10,2027-04-05,2000,Planned,End before start
+Darjeeling,Food,2027-04-10,2027-04-10,-300,Planned,Negative cost
+Coorg,Stay,2027-04-12,2027-04-14,abc,Planned,Non-numeric cost
+Kovalam,Stay,2027-04-12,2027-04-14,10000001,Planned,"Cost above the 10,000,000 limit"
+Pondicherry,Spa,2027-04-20,2027-04-20,3000,Planned,Unknown category
+Mysore,Activity,2027-04-22,2027-04-22,900,Maybe,Unknown status
+Khajuraho,Stay,2027-04-25
+Hampi,Stay,2026-12-24,2026-12-26,5600,Planned,"Duplicate of a sample row (skipped, not an error)"
